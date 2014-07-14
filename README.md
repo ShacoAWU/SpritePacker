@@ -5,7 +5,7 @@ With these class you can easily add and load sprites from your cache.
 
 Examples of how to use these classes:
 
-			      /* Sprite unpacking */
+	    * Sprite unpacking */
             drawLoadingText(80, "Unpacking sprites");
             //chat
             SpriteUnpacker chatUnpacker = new SpriteUnpacker(configLoader.getDataForName("chat"));
