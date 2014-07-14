@@ -94,6 +94,13 @@ public class SpritePacker {
     }
 
     /**
+     * Clears the loaded sprites.
+     */
+    public void unloadSprites() {
+        sprites.clear();
+    }
+
+    /**
      * Checks if the file is an PNG image.
      *
      * @param file file input
